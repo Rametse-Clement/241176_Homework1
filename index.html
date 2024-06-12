@@ -1,0 +1,105 @@
+<!DOCTYPE html><!--type of html-->
+<html lang="en"><!--html starts here-->
+<head><!--admin section-->
+
+    <meta charset="UTF-8"><!--character set / types of characters-->
+    <meta http-equiv="X-UX-Compatible" content="IE-edge"><!--types of browser it is compatible with-->
+    <meta name="viewport" content="width-device-width, initial-scale-1.0"><!--website as wide as browser-->
+    <meta name="keyword" content="HTML, CSS, Template, Bootstrap"> <!--search words for users-->
+    <meta name="author" content="Name Surname StudentNumber">
+
+    <title>Basic JavaScript</title>
+
+    <!--link bootstrap
+        link javascript
+        link Google Font files
+        link CSS-->
+
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com crossorigin" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    
+
+   <p id="display">Select One</p>
+
+    <div class="flexCont">
+        <div class="flexItem">   
+         <button type="button" onclick="bool = true; tester()">Enter</button>
+         <a href="https://www.openwindow.co.za/" target="_blank">
+           Click here
+        </a>
+        </div> 
+        <div class="flexItem">
+            <button type="button" onclick="bool = false; tester()">Leave</button>
+            <a href="https://www.google.com/" target="_blank">
+                Click here
+             </a>
+        </div>
+    </div> 
+    
+<script src="js/script.js"></script>
+</body>
+</html>
+ 
+<body>
+    <div id="app">
+        <header>
+            <h1>
+                Interactive Development 
+            </h1>
+            <h1>
+                Single Page Application Using
+                HTML, CSS & JavaScript
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" onclick=
+                    "changeContent('home')">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick=
+                    "changeContent('about')">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#" onclick=
+                    "changeContent('contact')">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <div id="content">
+ 
+                <img src=
+"Assets/open-window-new-logo.jpg">
+                <h2>Welcome Open Window</h2>
+                <p>
+                    Open Window is a portal for designers
+                </p>
+                <p>
+                    Visit the Open Window portal
+                    <a href="https://www.openwindow.co.za/" target="_blank">
+                        here
+                    </a>
+                </p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+ 
+</html>
